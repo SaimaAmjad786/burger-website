@@ -11,8 +11,7 @@ function Home() {
                     <div className="home-content">
                         <h1>Tasty Burger</h1>
                         <p className="text">
-                            Welcome to Burger Shop burger every bite is a flavor explore our mouthwatering menu of handcrafted burgers made from the freshest ingredients
-                            Order now and experience the best burgers in town, delivered straight to your door.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laboriosam optio amet voluptatibus ab cupiditate doloribus sapiente! In qui tenetur, cum, reiciendis eius ex iure pariatur, eum fuga ea voluptatum.
                         </p>
                         <div className="button">
                             <a href="#" className="btn btn-1">
