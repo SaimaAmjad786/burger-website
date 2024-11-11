@@ -1,10 +1,11 @@
 import React from 'react'
+import Image from "next/image"
 
 function About() {
   return (
     <div>
         <section className="about" id='about'>
-  <img src="/burger-1.png" alt="Burger 1" className="about-img" />
+  <Image src="/burger-1.png" alt="Burger 1" className="about-img" width={500}  height={500}/>
   <div className="about-content">
     <h2>About Us</h2>
     <p className="text">

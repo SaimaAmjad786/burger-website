@@ -25,6 +25,9 @@ function Header() {
                                         <Link href="#menu">Menu</Link>
                                     </li>
                                     <li>
+                                        <Link href="#expert">Experts</Link>
+                                    </li>
+                                    <li>
                                         <Link href="#services">Services</Link>
                                     </li>
                                     <li>

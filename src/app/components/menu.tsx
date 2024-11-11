@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from "next/image"
 function Menu() {
     return (
         <div>
@@ -10,7 +10,7 @@ function Menu() {
                 </p>
                 <div className="gallery">
                     <div className="gall-img">
-                        <img src="/burger-2.png" alt="Burger 2" />
+                        <Image src={"/burger-2.png"}alt="Burger 2" width={500} height={500}/>
                         <div className="info">
                             <p className="price">$3.85</p>
                             <p className="name">Burger Name</p>
@@ -20,7 +20,7 @@ function Menu() {
                         </div>
                     </div>
                     <div className="gall-img">
-                        <img src="/burger-3.png" alt="Burger 3" />
+                        <Image src={"/burger-3.png"} alt="Burger 3"  width={500} height={500}/>
                         <div className="info">
                             <p className="price">$3.95</p>
                             <p className="name">Burger Name</p>
@@ -30,7 +30,7 @@ function Menu() {
                         </div>
                     </div>
                     <div className="gall-img">
-                        <img src="/hero.png" alt="Burger 3" />
+                        <Image src={"/hero.png"} alt="Burger 3" width={500} height={500} />
                         <div className="info">
                             <p className="price">$3.85</p>
                             <p className="name">Burger Name</p>
@@ -40,7 +40,7 @@ function Menu() {
                         </div>
                     </div>
                     <div className="gall-img">
-                        <img src="/burger-5.png" alt="Burger 5" />
+                        <Image src={"/burger-5.png"} alt="Burger 5" width={500} height={500}/>
                         <div className="info">
                             <p className="price">$4.85</p>
                             <p className="name">Burger Name</p>
@@ -50,7 +50,7 @@ function Menu() {
                         </div>
                     </div>
                     <div className="gall-img">
-                        <img src="/burger-6.png" alt="Burger 6" />
+                        <Image src={"/burger-6.png"} alt="Burger 6" width={500} height={500} />
                         <div className="info">
                             <p className="price">$9.85</p>
                             <p className="name">Burger Name</p>
@@ -60,7 +60,7 @@ function Menu() {
                         </div>
                     </div>
                     <div className="gall-img">
-                        <img src="/burger-7.png" alt="Burger 7" />
+                        <Image src={"/burger-7.png"} alt="Burger 7" width={500} height={500}/>
                         <div className="info">
                             <p className="price">$6.85</p>
                             <p className="name">Burger Name</p>

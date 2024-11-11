@@ -235,8 +235,8 @@
     position: absolute;
     top: 0;
     right: 5%;
-    height: 110%;
-    width: 50%;
+   height: 600px;
+    width: 600px; 
   }
   
   .home-content {
@@ -273,7 +273,7 @@
   }
   
   .about-img {
-    width: 50%;
+    width: 500px;
   }
   
   .about-content {
@@ -286,6 +286,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
+    width: 100%;
+    height: 100%;
   }
   
   .gall-img {
@@ -339,7 +341,6 @@
     min-height: 100vh;
     padding-top: 100px;
   }
-  
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -364,12 +365,12 @@
     text-align: center;
     margin-top: 50px;
     padding: 0 20px;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(165, 42, 42, 0.747);
   }
   
   .review .card img {
-    width: 80px;
-    height: 80px;
+    width: 40%;
+    height: 40%;
     border-radius: 50%;
   }
   
@@ -397,9 +398,9 @@
       width: 90%;
     }
   
-    .home-img {
+     .home-img {
       display: none;
-    }
+    } 
   
     .about {
       flex-direction: column;
